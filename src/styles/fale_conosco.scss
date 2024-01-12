@@ -1,0 +1,88 @@
+@use 'variaveis';
+@import 'mixins';
+
+
+.fale-conosco {
+    background-color: #000;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: variaveis.$cordeTexto;
+
+    .card-text{
+        @include estilo-paragrafo;
+        }
+
+    #contact  {
+        width: 100%;
+
+        form{
+        margin-left: 21%;
+        }
+    
+        label{
+        width: 220%;
+        }
+
+        input{
+        border-radius: 2%;
+        border: none
+        }
+
+        .btn{
+        @include estilo-botão;
+        width: 60%;
+        font-weight: bold;
+        }
+
+        .btn:hover{
+        @include estilo-botão-hover;
+        }
+    
+        .col-md-7{
+        display: flex;
+        width: 90%;
+        }
+
+}
+
+.sankofa {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+
+        .card-title{
+        color: variaveis.$cordeTexto;
+        }
+
+        i{
+        color: variaveis.$textColored2;
+        }
+
+        .c2{
+        display: flex;
+        width: 50%;
+    
+        ul{
+        display: flex;
+        flex-direction: column;
+        }
+
+        #a1{
+            ul{
+            display: flex;
+            flex-direction: row;
+            }
+        }
+        
+    }
+
+    .col-md-5 {
+        a{
+        color: variaveis.$cordeTexto;
+        font-size: 15px;
+        }
+        }
+
+    }
+
+}

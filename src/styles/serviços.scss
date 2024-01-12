@@ -1,0 +1,61 @@
+@use 'variaveis';
+@import 'mixins';
+
+
+.serviços {
+    background-color: variaveis.$corDeFundo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+
+    .card-body{
+        margin-left: 5%;
+        }
+
+    .mb-3{
+        background-color: variaveis.$corDeFundo;
+    
+        .card-title{
+            color: variaveis.$cordeTexto;
+            }
+        
+        .card-text{
+            @include estilo-paragrafo-menor;
+            }
+        
+        .img-fluid{
+            height: 100%;
+            border-radius: 1%;
+            }
+        }
+
+    .col-md-6 .btn{
+        width: 60%;
+        font-weight: bold;
+        border-radius: 15px;
+        margin-left: 20%;
+        margin-top: 5%;
+        @include estilo-botão;
+        }
+
+    .mb-3 .btn:hover{
+        color: variaveis.$cordeTexto;
+        @include estilo-botão-hover;
+        }
+}
+
+
+#quadro2{
+    display: flex;
+    flex-direction: row;
+
+    .card-body{
+        margin-left: -3%;
+        margin-right: 8%;
+        }
+
+    .btn:hover{
+        @include estilo-botão-hover;
+        }
+}

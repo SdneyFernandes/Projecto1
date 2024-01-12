@@ -1,0 +1,209 @@
+@use 'variaveis';
+@use 'header';
+@use 'sobre';
+@use 'ofertas';
+@use 'serviços';
+@use 'galeria';
+@use 'experiencias';
+@use 'fale_conosco';
+
+
+*{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+/*estilização para efeito rolagem no js*/
+#area1, #area2, 
+#area3, #area4, #area5 {
+visibility: hidden;
+}
+
+#quadro1, #quadro2, #contact {
+visibility: hidden;
+}
+
+
+/*
+@media (min-width: 768px) and (max-width: 1024px) 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 765px) {
+    
+    .navbar{
+        height: 9vh;
+    }
+    
+    .carousel img{
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .container button{
+        width: 13%;
+    }
+
+    .col-md-5 img{
+        margin-bottom: 3%; 
+    }
+
+    .col-md-4 p{
+        margin-bottom: 8%;
+    }
+
+    .col-md-2 button{
+    width: 45%;
+    margin-left: 25%;
+    }
+
+    aside button{
+    margin-bottom: 0.5%;
+    }
+
+    #espaço .nav-link {
+    background-color: green
+    }
+
+    #espaço .nav-link i{
+        color: #fff;
+    }
+  
+    #espaço .nav-link.active {
+        background-color: #fff;
+    }
+
+    #espaço .nav-link.active i{
+        color:#457a38;
+    }
+
+    #espaço p{
+        margin-bottom: 10%;
+    }
+
+    aside{
+        margin-bottom: 3%;
+        margin-left:5%;   
+    }
+
+    #fale-conosco form{
+        margin-left: 10%;
+    }
+
+    #fale-conosco .col-md-5{
+        margin-left: 10%;
+        margin-bottom: 5%;
+        width: 40%;
+    }
+}
+
+
+@media screen and (min-width: 766px) and (max-width: 1023px) {
+    
+    .carousel img{
+       width: 100%;
+       height: 50vh;
+    }
+
+   .col-md-5 img{
+       height: 400px;
+       margin-bottom: 3%; 
+    } 
+
+    .container button{
+        width: 13%;
+    }
+
+    .col-md-4 p{
+        margin-bottom: 8%;
+    }
+
+    aside nav{
+        margin-left: 20%;
+    }
+
+    .col-md-2 button{
+        width: 70%;
+    }
+
+    #espaço .nav-link {
+        background-color: green
+    }
+
+    #espaço .nav-link i{
+        color: #fff;
+    }
+  
+    #espaço .nav-link.active {
+        background-color: #fff;
+    }
+
+    #espaço .nav-link.active i{
+        color:#457a38;
+    }
+
+    #espaço p{
+        margin-bottom: 10%;
+    }
+
+    aside{
+        margin-bottom: 3%;
+        margin-left:2%;
+    }
+
+    #fale-conosco{
+        padding-bottom: 15%;
+        width: 99%;
+    }
+
+    #fale-conosco form{
+        margin-left: 5%;
+    }
+
+    #fale-conosco .col-md-5{
+        margin-bottom: 5%;
+        margin-left:3% ;
+        width: 40%;
+    }
+
+    #fale-conosco label{
+        width: 90%;
+    }
+    
+    #fale-conosco button{
+        width: 20%;
+    }
+
+}

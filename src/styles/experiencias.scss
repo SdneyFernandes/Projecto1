@@ -1,0 +1,29 @@
+@use 'variaveis';
+@import 'mixins';
+
+.experiencias{
+    background-color: variaveis.$corDeFundo;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8%;
+    height: 70vh;
+    
+    .card{
+    background-color: variaveis.$corDeFundo;
+    }
+
+    .card-text{
+    width: 150%;
+    margin-left: -25%;
+    @include estilo-paragrafo;
+    }
+
+    .card-title{
+    font-size: 30px;
+    color: variaveis.$cordeTexto;
+    width: 150%;
+    margin-left: -70px;
+    }
+
+}

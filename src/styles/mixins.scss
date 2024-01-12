@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+@mixin estilo-paragrafo() {
+    font-size: variaveis.$fontSizeText1;
+    color: variaveis.$cordeTexto;
+    }
+
+@mixin estilo-paragrafo-menor() {
+    font-size: variaveis.$fontSizeText2;
+    color: variaveis.$cordeTexto;
+    }
+
+@mixin estilo-botão-hover(){
+    color: variaveis.$corDeFundo;
+    background-color: variaveis.$textColored2;
+    border: none;
+    }
+
+@mixin estilo-botão(){
+    color: variaveis.$cordeTexto;
+    background-color: variaveis.$textColored1;
+    border: none;
+    }

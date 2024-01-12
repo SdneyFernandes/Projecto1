@@ -1,0 +1,48 @@
+@use 'variaveis';
+
+    header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    }
+
+    .navbar {
+    height: 20vh;
+    background-color: variaveis.$corDeFundo;
+
+        .nav-item {
+        transition: border-bottom 0.3s ease-in-out;
+        border-bottom: 2px solid transparent; 
+        }
+
+        .nav-item:hover {
+        border-bottom: 2px solid #fff; 
+        }
+
+        .card-title {
+        color: variaveis.$cordeTexto;
+        }
+
+        .card-title:hover {
+        color: variaveis.$cordeTexto;
+        }
+
+        i {
+        color: variaveis.$textColored1;
+        }
+
+        a {
+        color: variaveis.$cordeTexto;
+        text-decoration: none;
+        }
+
+        a:hover {
+        color: variaveis.$cordeTexto; 
+        }
+}
+
+
+
+
+
+

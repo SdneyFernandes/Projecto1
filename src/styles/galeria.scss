@@ -1,0 +1,38 @@
+@use 'variaveis';
+@import 'mixins';
+
+
+.galeria {
+    background-color: variaveis.$corDeFundo;
+
+    button{
+        color: variaveis.$cordeTexto;
+        margin-bottom: 5%;
+        }
+    
+    .card-title{
+        color: variaveis.$cordeTexto;
+        padding-top: 4%;
+        padding-bottom: 3%;
+        }
+    
+    p{
+        color: variaveis.$cordeTexto;
+        }
+
+    aside{
+
+        .nav-link.active {
+            @include estilo-botão;
+            }
+    
+        .nav-link.active i{
+            @include estilo-botão;
+            }
+    
+        .nav-link{
+            color: variaveis.$cordeTexto;
+            }
+    }
+
+}
