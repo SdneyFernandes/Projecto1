@@ -37,34 +37,27 @@ const form = document.querySelector("#form");
     });
 
 
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#quadro1', {duration:1500});
 
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#quadro2', {duration:1500});
 
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#area1', {duration:1500});
 
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#area2', {duration:1500});
 
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#area3', {duration:1500});
 
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#area4', {duration:1500});
 
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#quadro1', {duration:1500});
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#area5', {duration:1500});
 
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#quadro2', {duration:1500});
+window.sr = ScrollReveal({reset:true});
+sr.reveal('#contact', {duration:1500});
 
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#area1', {duration:1500});
-
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#area2', {duration:1500});
-
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#area3', {duration:1500});
-
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#area4', {duration:1500});
-
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#area5', {duration:1500});
-
-   window.sr = ScrollReveal({reset:true});
-   sr.reveal('#contact', {duration:1500});
-
- 

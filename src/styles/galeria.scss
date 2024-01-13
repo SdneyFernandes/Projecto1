@@ -3,70 +3,78 @@
 
 .galeria {
     background-color: variaveis.$corDeFundo;
-
+    
     #galeria-itens{
-        @media (min-width: 768px) and (max-width: 1024px) {
-            
-            margin-left: 16%;
-            
-           
+        @media (min-width: 481px) and (max-width: 767px) {
+        font-size: 10px;
+        width: 40% ;
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) { 
+        margin-left: 16%;
         }
     }
 
     button {
-        color: variaveis.$cordeTexto;
-        margin-bottom: 5%;
-
-
+    color: variaveis.$cordeTexto;
+    margin-bottom: 5%;
     }
 
     .card-title {
-        color: variaveis.$cordeTexto;
-        padding-top: 4%;
-        padding-bottom: 3%;
+    color: variaveis.$cordeTexto;
+    padding-top: 4%;
+    padding-bottom: 3%;
     }
 
-    p {
-        color: variaveis.$cordeTexto;
+    p{
+    color: variaveis.$cordeTexto;
     }
 
     aside {
 
-
         .button{
-            
-       
-
-        @media (min-width: 768px) and (max-width: 1024px) {
+            @media (min-width: 481px) and (max-width: 767px) {
             display: flex;
-            
-           
+            width: 80%;
+            font-size: 13px;
+            }
+
+            i{
+            @media (min-width: 481px) and (max-width: 767px) {
+            display: flex;
+            }
+            }
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+            display: flex;
+            }
         }
-
-    }
-
-      
-       
 
         .nav-link.active {
             @include estilo-botão;
+            @media (min-width: 481px) and (max-width: 767px) {
+            width: 250%;
+            }
         }
 
         .nav-link.active i {
-            @include estilo-botão;
-
+        @include estilo-botão;
         }
         
 
         .nav-link {
             color: variaveis.$cordeTexto;
-
-            
             @media (min-width: 768px) and (max-width: 1024px) {
-                font-size: 90%;
-                
-               
+            font-size: 90%;
             }
+        }
+    }
+
+    .tab-content{
+        @media (min-width: 481px) and (max-width: 767px) {
+        padding-left: 90%;
+        width: 200%;
+        margin-top: 20%;
         }
     }
 }

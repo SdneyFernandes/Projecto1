@@ -9,16 +9,15 @@
     padding-top: 8%;
     height: 70vh;
 
+
+    @media (min-width: 481px) and (max-width: 767px) {
+    height: 40vh;
+    }
     
     @media (min-width: 768px) and (max-width: 1024px) {
-       
-        height: 30vh;
-        
-       
+    height: 30vh;
     }
 
-
-    
     .card{
     background-color: variaveis.$corDeFundo;
     }
@@ -34,6 +33,13 @@
     color: variaveis.$cordeTexto;
     width: 150%;
     margin-left: -70px;
+
+    @media (min-width: 481px) and (max-width: 767px) {
+        font-size: 17px;
+        width: 100% ;
+        margin-left: 2%;
+    }
+
     }
 
 }

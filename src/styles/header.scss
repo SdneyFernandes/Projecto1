@@ -4,7 +4,6 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-
     }
 
     .navbar {
@@ -12,11 +11,10 @@
     background-color: variaveis.$corDeFundo;
 
     .navbar-toggler {
-       width: 10%;
-       background-color: #fff;
-       border-radius: 5px;
+    width: 10%;
+    background-color: #fff;
+    border-radius: 5px;
     }
-
         .nav-item {
         transition: border-bottom 0.3s ease-in-out;
         border-bottom: 2px solid transparent; 
@@ -48,27 +46,35 @@
         }
 }
 
+@media  (max-width: 481px) and (max-width: 767px) {
+    .navbar .navbar-toggler {
+        width: 17%;
+        margin-left: 85%;
+        margin-top: -13%;
+        background-color: #fff;
+        border-radius: 5px;
+        }
 
-
+    header .nav-pills{
+        background-color: #292828;
+        font-size: 13px;
+        margin-left: -5%;
+        margin-right: 60%;
+        }
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
-      
-        
+    .navbar { 
+        height: 120px;
+        }
 
+    .nav-pills{
+        margin-left: 18%;
+        }
 
-.navbar { 
-    height: 120px;
-   
-}
-
-.nav-pills{
-    margin-left: 18%;
-}
-
-.sticky-top {
-    position: static !important; 
-}
-
+    .sticky-top {
+        position: static !important; 
+        }
 }
 
 

@@ -12,11 +12,9 @@
     .card-body{
         margin-left: 5%;
 
-        @media (min-width: 768px) and (max-width: 1024px) {
-           
+        @media (min-width: 481px) and (max-width: 767px) {
+        margin-left:-3%;
         }
-
-
         }
 
     .mb-3{
@@ -25,19 +23,17 @@
         .card-title{
             color: variaveis.$cordeTexto;
             @media (min-width: 768px) and (max-width: 1024px) {
-                font-size: 120%;
+            font-size: 120%;
             }
-
-            }
+        }
         
         .card-text{
             @include estilo-paragrafo-menor;
 
             @media (min-width: 768px) and (max-width: 1024px) {
-                font-size: 70%;
+            font-size: 70%;
             }
-
-            }
+        }
         
         .img-fluid{
             height: 100%;
