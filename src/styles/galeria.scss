@@ -1,38 +1,76 @@
 @use 'variaveis';
 @import 'mixins';
 
-
 .galeria {
     background-color: variaveis.$corDeFundo;
 
-    button{
+    #galeria-itens{
+        @media (min-width: 768px) and (max-width: 1024px) {
+            
+            margin-left: 16%;
+            
+           
+        }
+    }
+
+    button {
         color: variaveis.$cordeTexto;
         margin-bottom: 5%;
-        }
-    
-    .card-title{
+
+
+    }
+
+    .card-title {
         color: variaveis.$cordeTexto;
         padding-top: 4%;
         padding-bottom: 3%;
-        }
-    
-    p{
+    }
+
+    p {
         color: variaveis.$cordeTexto;
+    }
+
+    aside {
+
+
+        .button{
+            
+       
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            display: flex;
+            
+           
         }
 
-    aside{
+    }
+
+      
+       
 
         .nav-link.active {
             @include estilo-botão;
-            }
-    
-        .nav-link.active i{
-            @include estilo-botão;
-            }
-    
-        .nav-link{
-            color: variaveis.$cordeTexto;
-            }
-    }
+        }
 
+        .nav-link.active i {
+            @include estilo-botão;
+
+        }
+        
+
+        .nav-link {
+            color: variaveis.$cordeTexto;
+
+            
+            @media (min-width: 768px) and (max-width: 1024px) {
+                font-size: 90%;
+                
+               
+            }
+        }
+    }
 }
+
+
+
+

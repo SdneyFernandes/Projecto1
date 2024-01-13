@@ -1,6 +1,13 @@
 @use 'variaveis';
 @import 'mixins';
 
+@media (min-width: 768px) and (max-width: 1024px) {
+      
+        
+    }
+    
+    
+
 
 .about {
 
@@ -10,6 +17,12 @@
         overflow: hidden;
         position: relative;
         flex: 1;
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            
+            height: 50vh;
+        
+        }
 
         img{
             width: 100%;
@@ -27,6 +40,14 @@
         transform: translateY(-50%);
         color: rgba(255, 255, 255, 0.8);
         padding: 20px;
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            
+           top: 40%
+
+           
+        
+        }
         
         .s1{
             font-size: 4rem;

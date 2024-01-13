@@ -17,6 +17,9 @@
                 <img src="dist/images/digital.png" alt="" width="5%">
                 Sankofa
             </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao" aria-controls="menu-navegacao" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
@@ -47,6 +50,7 @@
             </nav>
         </div>
     </header>
+    
 
     <section id="section1" class="about">
             <div class="img-about">
@@ -143,9 +147,10 @@
                 <div class="row">
                     <h1 class="section-title text-center mt-4 mb-4 card-title">Galeria Sankofa</h1>
                 </div>
-                <div class="row">
+                <div id="galeria-itens" class="row">
                     <aside  class="col-md-2">
-                        <nav class="nav nav-pills flex-column">
+                        <nav  class="nav nav-pills flex-column">
+                            <div class="button">
                             <button type="button" data-bs-toggle="tab" data-bs-target="#cultura" class="fw-bold text-start nav-link active ">
                                 <i class="bi bi-award-fill"> Cultura</i>
                             </button>
@@ -158,6 +163,7 @@
                             <button type="button" data-bs-toggle="tab" data-bs-target="#comunidade" class="fw-bold text-start nav-link ">
                                 <i class="bi bi-person-arms-up"> Comunidade</i>
                             </button>
+                        </div>
                         </nav>
                     </aside>
                     <div class="col-md-10">

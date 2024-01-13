@@ -14,12 +14,23 @@
     .card{
         background-color: variaveis.$corDeFundo;
 
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding-left: 3%;
+        }
+
         .btn{
             width: 60%;
             font-weight: bold;
             border-radius: 15px;
             margin-left: 20%;
             @include estilo-botão;
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+                width: 75%;
+                height: 10%;
+                margin-left: 11%;
+            }
+
             }
         
         .btn:hover{

@@ -8,8 +8,19 @@
     padding-top: 3%;
     color: variaveis.$cordeTexto;
 
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        height: 92vh;
+
+        
+       
+    }
+
     .card-text{
         @include estilo-paragrafo;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            font-size: 13px;
+        }
         }
 
     #contact  {
@@ -17,10 +28,27 @@
 
         form{
         margin-left: 21%;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            width: 20%;
+            margin-left: 10%;
+            
+            
+           
+        }
         }
     
         label{
         width: 220%;
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            width: 200%;
+            font-size: 13px;
+            
+            
+           
+        }
+
+        
         }
 
         input{
@@ -50,6 +78,9 @@
     justify-content: space-between;
     padding-top: 8%;
 
+
+    
+
         .card-title{
         color: variaveis.$cordeTexto;
         }
@@ -65,12 +96,25 @@
         ul{
         display: flex;
         flex-direction: column;
+
+       
+
+
         }
 
         #a1{
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+        
+    margin-left: 20%;
+        
+       
+            }
+
             ul{
             display: flex;
             flex-direction: row;
+            
             }
         }
         
@@ -80,6 +124,14 @@
         a{
         color: variaveis.$cordeTexto;
         font-size: 15px;
+
+
+     
+
+            
+
+
+
         }
         }
 
