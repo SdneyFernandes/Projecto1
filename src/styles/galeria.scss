@@ -5,12 +5,12 @@
     background-color: variaveis.$corDeFundo;
     
     #galeria-itens{
-        @media (min-width: 481px) and (max-width: 767px) {
+        @media screen and (max-width: 765px) {
         font-size: 10px;
         width: 40% ;
         }
 
-        @media (min-width: 768px) and (max-width: 1024px) { 
+        @media screen and (min-width: 766px) and (max-width: 1023px) { 
         margin-left: 16%;
         }
     }
@@ -33,26 +33,26 @@
     aside {
 
         .button{
-            @media (min-width: 481px) and (max-width: 767px) {
+            @media screen and (max-width: 765px) {
             display: flex;
             width: 80%;
             font-size: 13px;
             }
 
             i{
-            @media (min-width: 481px) and (max-width: 767px) {
+            @media screen and (max-width: 765px) {
             display: flex;
             }
             }
 
-            @media (min-width: 768px) and (max-width: 1024px) {
+            @media screen and (min-width: 766px) and (max-width: 1023px) {
             display: flex;
             }
         }
 
         .nav-link.active {
             @include estilo-botão;
-            @media (min-width: 481px) and (max-width: 767px) {
+            @media screen and (max-width: 765px) {
             width: 250%;
             }
         }
@@ -64,14 +64,14 @@
 
         .nav-link {
             color: variaveis.$cordeTexto;
-            @media (min-width: 768px) and (max-width: 1024px) {
+            @media screen and (min-width: 766px) and (max-width: 1023px) {
             font-size: 90%;
             }
         }
     }
 
     .tab-content{
-        @media (min-width: 481px) and (max-width: 767px) {
+        @media screen and (max-width: 765px) {
         padding-left: 90%;
         width: 200%;
         margin-top: 20%;

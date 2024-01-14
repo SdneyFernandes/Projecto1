@@ -12,7 +12,7 @@
     .card-body{
         margin-left: 5%;
 
-        @media (min-width: 481px) and (max-width: 767px) {
+        @media screen and (max-width: 765px) {
         margin-left:-3%;
         }
         }
@@ -22,7 +22,7 @@
     
         .card-title{
             color: variaveis.$cordeTexto;
-            @media (min-width: 768px) and (max-width: 1024px) {
+            @media screen and (min-width: 766px) and (max-width: 1023px) {
             font-size: 120%;
             }
         }
@@ -30,7 +30,7 @@
         .card-text{
             @include estilo-paragrafo-menor;
 
-            @media (min-width: 768px) and (max-width: 1024px) {
+            @media screen and (min-width: 766px) and (max-width: 1023px) {
             font-size: 70%;
             }
         }

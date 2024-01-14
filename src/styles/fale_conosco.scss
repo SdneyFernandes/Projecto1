@@ -8,17 +8,17 @@
     padding-top: 3%;
     color: variaveis.$cordeTexto;
 
-    @media (max-width: 481px) and (max-width: 767px) {
-    height: 90vh;
+    @media screen and (max-width: 765px) {
+    height: 100vh;
     }
 
-    @media (min-width: 768px) and (max-width: 1024px) {
+    @media screen and (min-width: 766px) and (max-width: 1023px) {
     height: 92vh;
     }
 
     .card-text{
         @include estilo-paragrafo;
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media screen and (min-width: 766px) and (max-width: 1023px) {
         font-size: 13px;
         }
     }
@@ -28,12 +28,12 @@
 
         form{
         margin-left: 21%;
-        @media (min-width:481px) and (max-width: 767px) {
+        @media screen and (max-width: 765px) {
         margin-top: 10%;
         margin-left: 0;
         }
 
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media screen and (min-width: 766px) and (max-width: 1023px) {
         width: 20%;
         margin-left: 10%;
         }
@@ -42,11 +42,11 @@
         label{
         width: 220%;
 
-        @media (max-width: 767px) {
+        @media screen and (max-width: 765px) {
         width: 100%;
         }
 
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media screen and (min-width: 766px) and (max-width: 1023px) {
         width: 200%;
         font-size: 13px;
         }
@@ -72,7 +72,7 @@
         display: flex;
         width: 90%;
 
-        @media (min-width: 481px) and (max-width: 767px) {
+        @media screen and (max-width: 765px) {
         font-size: 13px;
         display: flex;
         flex-direction: column;
@@ -85,7 +85,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 8%;
-    @media (min-width:481px) and (max-width: 767px) {
+    @media screen and (max-width: 765px) {
         padding-top: 15%;
         display: flex;
         flex-direction: column;
@@ -109,7 +109,7 @@
     }
 
     #a1{
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media screen and (min-width: 766px) and (max-width: 1023px) {
         margin-left: 20%;
         }
         ul{
@@ -121,7 +121,7 @@
 }
 
     .col-md-5 {
-        @media (min-width:481px) and (max-width: 767px) {
+        @media screen and (max-width: 765px) {
         margin-top: 10%;
         }
 
@@ -131,7 +131,7 @@
         }
 
         #list{
-            @media (min-width:481px) and (max-width: 767px) {
+            @media screen and (max-width: 765px) {
             margin-left: 210%;
             width: 150%;
             }
