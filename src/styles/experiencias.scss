@@ -26,6 +26,13 @@
     width: 150%;
     margin-left: -25%;
     @include estilo-paragrafo;
+
+    @media screen and (max-width: 765px) {
+        font-size: 15px;
+       
+        
+    }
+
     }
 
     .card-title{

@@ -35,8 +35,8 @@
         .button{
             @media screen and (max-width: 765px) {
             display: flex;
-            width: 80%;
-            font-size: 13px;
+            width: 70%;
+            font-size: 11px;
             }
 
             i{
@@ -53,7 +53,7 @@
         .nav-link.active {
             @include estilo-botão;
             @media screen and (max-width: 765px) {
-            width: 250%;
+            width: 240%;
             }
         }
 
@@ -65,7 +65,7 @@
         .nav-link {
             color: variaveis.$cordeTexto;
             @media screen and (min-width: 766px) and (max-width: 1023px) {
-            font-size: 90%;
+            font-size: 85%;
             }
         }
     }
